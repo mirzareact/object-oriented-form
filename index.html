@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOP form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="form.svg">
+</head>
+<body>
+    <img src="mire_logo.jpg" alt="">
+    <form>
+		<h1> User registration</h1>
+		<div>
+			<label for="ime_prezime">First and Last name: *</label>
+			<input id="ime_prezime" type="text" name="ime_prezime" placeholder="Mirza Hodžić">
+		</div>
+		<div>
+			<label for="korisnicko_ime">User name: *</label>
+			<input id="korisnicko_ime" type="text" name="korisnicko_ime" placeholder="mirza.hodžić">
+		</div>
+		<div>
+			<label for="email">Email address: *</label>
+			<input id="email" type="text" name="email" placeholder="mirza.hodžić@mail.com">
+		</div>
+		<div>
+			<label for="broj_telefona">Phone number:</label>
+			<input id="broj_telefona" type="text" name="broj_telefona" placeholder="+381 00 123 456">
+		</div>
+		<div>
+			<label for="lozinka">Password: *</label>
+			<input id="lozinka" type="text" name="lozinka" placeholder="*******">
+		</div>
+		<div>
+			<label for="ponovi_lozinku">Repeat password *</label>
+			<input id="ponovi_lozinku" type="text" name="ponovi_lozinku" placeholder="*******">
+		</div>
+		<div>
+			<button>Register</button>
+		</div>
+	</form>
+
+
+
+
+
+    <script src="validator.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
